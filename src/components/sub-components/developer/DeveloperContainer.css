@@ -1,0 +1,76 @@
+.developer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+.developer-avatar-container {
+
+}
+
+.developer-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.developer-info-container {
+
+}
+
+.developer-info-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.developer-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.developer-skills-container {
+
+}
+
+.developer-skill-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.developer-skill-icon {
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.developer-skill-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+
+@media (max-width: 750px) {
+    .developer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .developer-hidden-container {
+        display: none;
+    }
+
+    .developer-avatar {
+        width: 100px;
+        height: 100px;
+    }
+}

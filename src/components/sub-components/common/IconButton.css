@@ -1,0 +1,23 @@
+.icon-button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.icon-button-icon {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.icon-button-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+}

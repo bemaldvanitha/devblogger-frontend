@@ -1,0 +1,12 @@
+.custom-spacer {
+    padding: 40px 0 !important;
+}
+
+.custom-image-container {
+    margin: 10px 0;
+}
+
+.custom-image {
+    height: 200px;
+    width: 400px;
+}

@@ -1,0 +1,12 @@
+.single-dev-divide-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    align-items: flex-start;
+}
+
+@media (max-width: 750px) {
+    .single-dev-divide-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,17 @@
+.developer-screen-header {
+    margin: 5px;
+}
+
+.developer-screen-header-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+
+.developer-screen-header-desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+}

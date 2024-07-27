@@ -1,0 +1,49 @@
+.single-dev-education-container {
+    padding: 10px 5px;
+    border: 1px solid gray;
+}
+
+.single-dev-education-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.single-dev-education-item {
+    padding: 0 10px;
+    border-bottom: 1px solid gray;
+}
+
+.single-dev-education-text {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+}
+
+.single-dev-education-item-school {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.single-dev-education-item-duration {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.single-dev-education-sub-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.single-dev-education-sub-item-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.single-dev-education-sub-item-text {
+    font-size: 14px;
+}

@@ -1,0 +1,54 @@
+.single-user-github {
+    margin: 10px 0;
+}
+
+.single-user-github-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+
+.single-user-github-box {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-column-gap: 10px;
+    align-items: flex-start;
+    border: 1px solid gray;
+    background-color: #f0f0f0;
+    margin: 8px;
+}
+
+.single-user-github-left-box {
+    margin: 0 10px;
+}
+
+.single-user-github-box-text {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+}
+
+.single-user-github-box-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.single-user-github-right-box {
+    margin: 0 10px;
+}
+
+.single-user-github-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0;
+    background-color: var(--primary-color);
+}
+
+.single-user-github-tag-text {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+    color: white;
+}

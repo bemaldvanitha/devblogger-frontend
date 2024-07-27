@@ -1,0 +1,34 @@
+.single-dev-info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid gray;
+    margin: 5px 0;
+}
+
+.single-dev-info-box-title {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.single-dev-info-box-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-dev-info-box-text {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.single-dev-info-box-text-item {
+    font-family: "Roboto", sans-serif;
+    margin: 10px;
+    font-size: 14px;
+}

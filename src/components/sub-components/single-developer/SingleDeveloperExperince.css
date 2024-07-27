@@ -1,0 +1,49 @@
+.single-dev-experince-container {
+    padding: 10px 5px;
+    border: 1px solid gray;
+}
+
+.single-dev-experince-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.single-dev-experince-item {
+    padding: 0 10px;
+    border-bottom: 1px solid gray;
+}
+
+.single-dev-experince-text {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0;
+}
+
+.single-dev-experince-item-company {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.single-dev-experince-item-duration {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.single-dev-experince-sub-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.single-dev-experince-sub-item-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.single-dev-experince-sub-item-text {
+    font-size: 14px;
+}
